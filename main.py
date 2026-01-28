@@ -40,7 +40,7 @@ from safe.utils import (
 # ----------------------------
 PROJECT_ROOT = Path(__file__).resolve().parent
 
-config_path = PROJECT_ROOT / 'config'
+config_path = PROJECT_ROOT / 'config.yaml'
 with open(config_path, 'r', encoding='utf-8') as f:
     config = yaml.safe_load(f)
 
